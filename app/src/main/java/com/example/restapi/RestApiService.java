@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface RestApiService {
-    @GET("acttfj/people")
+    @GET("acttFJ/people")
     Call<List<people>> getAllPeople();
 
 }
